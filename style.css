@@ -1,0 +1,58 @@
+body{
+    background: #12c2e9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+}
+
+
+.card{
+    background: white;
+    width: 40vw;
+    margin: auto;
+    padding: 20px;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.img-container{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: #12c2e9;
+    margin: auto;
+    
+}
+
+#job{
+    color: #12c2e9;
+    font-size: .7em;
+    margin-top: -15px;
+}
+
+#info{
+    font-size: .75em;
+}
+
+button{
+    background: transparent;
+    color: #00a8ce;
+    outline: none;
+    outline-style: none;
+    padding: 5px 15px;
+    border-radius: 10px; 
+    margin: 10px;
+    border: 1px solid #00a8ce
+}
+
+h1{
+    font-size: 2em;
+    letter-spacing: .1em;
+}
